@@ -1,3 +1,4 @@
+"homepage": "https://123Mwanjira.github.io/portfolio-hub",
 {
   "name": "portfolio-hub",
   "private": true,
@@ -10,6 +11,8 @@
     "preview": "vite preview",
     "test": "node ./scripts/test-with-fallback.js",
     "test:copy": "node ./scripts/test-copy.js"
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.6",
@@ -26,6 +29,7 @@
     "eslint": "^10.3.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
     "globals": "^17.6.0",
     "jsdom": "^29.1.1",
     "vite": "^8.0.12",
