@@ -43,7 +43,7 @@ src/
 1. Clone repository
    ```bash
 git clone https://github.com/your-username/portfolio-hub.git
-cd portfolio-hub
+   cd portfolio-hub
 ```
 2. Install dependencies
    ```bash
@@ -66,6 +66,21 @@ You can also run the fallback directly:
 ```bash
 npm run test:copy
 ```
+
+---
+
+## Submission
+
+This project is ready for final review and submission.
+- The SPA includes project display, search, and dynamic project creation.
+- Responsive layout and modern UI are implemented.
+- Tests are configured and can be run with `npm test`.
+- If your Windows path contains spaces, run:
+  ```bash
+  npm run test:copy
+  ```
+
+GitHub repository: https://github.com/123Mwanjira/portfolio-hub
 
 ---
 
